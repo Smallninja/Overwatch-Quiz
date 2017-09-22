@@ -25,8 +25,8 @@
 		this.fourthVal = fourthVal;
 	}
 		
-	var firstQuestion = new Question("Test Question1", ["A", false], ["B", false], ["C", false], ["D", true]);
-	var secondQuestion = new Question("Test Question2", ["A", false], ["B", false], ["C", true], ["D", false]);
+	var firstQuestion = new Question("What is the name of the character that can go back in time?", ["Reaper", false], ["Soldier", false], ["Orisa", false], ["Tracer", true]);
+	var secondQuestion = new Question("What is the current meta on attack?", ["2 tanks, 2 dps, 2 defense", false], ["4 support, 2 dps", false], ["2 dps, 1 def, 2 tanks, 1 healer", true], ["5 dps, 1 support ", false]);
 	var thirdQuestion = new Question("Test Question3", ["A", false], ["B", true], ["C", false], ["D", false]);
 	var fourthQuestion = new Question("Test Question4", ["A", true], ["B", false], ["C", false], ["D", false]);
 
