@@ -14,6 +14,7 @@
 
 	var allInput = document.getElementsByClassName("css-checkbox");
 
+	var scoreText = document.getElementById('score');
 	var questionPlace = 0;
 	var score = 0;
 
@@ -82,7 +83,7 @@
 		}
 		if(questionPlace === 4){
 			checkAnswer();
-			console.log(score);
+			scoreText.innerHTML = 'Your score is: ' + score + '/4';
 			return;
 		}
 	});

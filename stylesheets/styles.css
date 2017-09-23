@@ -53,6 +53,7 @@ main {
 	align-items: center;
 	color: white;
 	font-family: 'Roboto', sans-serif;
+	flex-direction: column;
 }
 
 #head-text {
