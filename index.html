@@ -6,9 +6,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="stylesheets/styles.css">
+		<!-- experimenting with html5 elements -->
 	</head>
 	<body>
-		<div class="question-box">
+		<header>
+			<details>
+				<summary>Navigation</summary>
+				<ul>
+					<li><a href="#">Something</a></li>
+					<li>Another</li>
+					<li>Something Else</li>
+				</ul>
+			</details>
+		</header>
+		<main>
 			<form>
 				<h1 id="head-text" data-question="text"></h1>
 				<input id="answerA" class="css-checkbox" type="radio" name="value">
@@ -26,7 +37,7 @@
 				<input data-btn="submit" type="submit">
 			</form>
 			<h1 id="score"></h1>
-		</div>
+		</main>
 		<script type="text/javascript" src="scripts/main.js"></script>
 	</body>
 </html>

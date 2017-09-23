@@ -59,7 +59,7 @@
 
 		optionD.innerHTML = object.fourthVal[0];
 		answerD.value = object.fourthVal[1];
-
+		
 		questionPlace++;
 	}
 

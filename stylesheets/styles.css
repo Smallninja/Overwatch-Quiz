@@ -17,9 +17,33 @@ body {
 	justify-content: center;
 	align-items: center;
 	background: url('img/reaper.jpg')no-repeat center center;
+	flex-direction: column;
+	position:relative;
+}
+header{
+	width:100%;
+	background-color:black;
+	color: white;
+	position: absolute;
+	top:0;
+	left:0;
+
+}
+details ul{
+	display:flex;
+	list-style: none;
+
+}
+details ul li{
+	text-align: center;
+	padding: 0 20px;
+}
+header a{
+	text-decoration: none;
+	color:white;
 }
 
-.question-box {
+main {
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.95);
 	height: 50%;
